@@ -1,6 +1,6 @@
 # Discord QR Code Scam
 A Discord QR Code generator which can hack mobile users.
-You need Google Chrome installed for this. Also, change the chromedriver.exe according to your google chrome version.
+You need Google Chrome and Python installed for this. Also, change the chromedriver.exe according to your google chrome version.
 (You can download chromedriver at https://chromedriver.chromium.org/downloads)
 
 Instructions:
