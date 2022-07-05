@@ -13,7 +13,7 @@ def logo_qr():
     im1 = im1.convert("RGBA")
     im2 = im2.convert("RGBA")
     im2_w, im2_h = im2.size
-    im1.paste(im2, (60, 59), im2)
+    im1.paste(im2, (58, 58), im2)
     im1.save('temp/final_qr.png', quality=100)
 
 def paste_template():
