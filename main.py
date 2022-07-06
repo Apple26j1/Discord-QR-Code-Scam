@@ -28,17 +28,17 @@ def main():
     try:
         os.remove("QRCode.png")
     except:
-        print("")
+        pass
 
     try:
         os.remove("temp/final_qr.png")
     except:
-        print("")
+        pass
 
     try:
         os.remove("temp/qr_code.png")
     except:
-        print("")
+        pass
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
