@@ -21,7 +21,7 @@ def paste_template():
     im2 = Image.open('temp/final_qr.png', 'r')
     im1 = im1.convert("RGBA")
     im2 = im2.convert("RGBA")
-    im1.paste(im2, (4, 4), im2)
+    im1.paste(im2, (104, 306), im2)
     im1.save('QRCode.png', quality=100)
 
 def main():
